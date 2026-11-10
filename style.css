@@ -76,6 +76,10 @@ h1 {
     font-weight: bold;
 }
 
+.bouton:hover {
+    background-color: #a4c4ff;
+}
+
 h2 {
     margin-bottom: 25px;
 }
@@ -107,6 +111,27 @@ section > p {
 
 .carte p {
     color: #bbb;
+}
+
+/* Tableau de synthèse E5 */
+
+.carte-e5 {
+    max-width: 600px;
+    flex: 1 1 100%;
+}
+
+.carte-e5 p {
+    margin-bottom: 5px;
+}
+
+.bouton-pdf {
+    margin-top: 18px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.bouton-pdf:hover {
+    transform: translateY(-2px);
 }
 
 /* Mes recherches */
@@ -217,6 +242,10 @@ footer a:hover {
         max-width: 100%;
         width: 100%;
         flex: 1 1 auto;
+    }
+
+    .carte-e5 {
+        max-width: 100%;
     }
 
     footer {
